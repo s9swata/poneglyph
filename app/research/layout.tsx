@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Bot, Plus, MessageSquare } from "lucide-react";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
@@ -39,23 +38,9 @@ export default function ResearchLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="font-onest antialiased">
-        <ResearchNav />
-        <main>{children}</main>
-      </body>
-    </html>
+    <>
+      <ResearchNav />
+      <main>{children}</main>
+    </>
   );
 }

@@ -46,7 +46,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 dots-pattern pointer-events-none" aria-hidden />
         <div className="container-max relative z-10 text-center">
           <h1 className="text-[clamp(44px,6vw,70px)] font-medium leading-[1em] tracking-[-0.03em] text-black max-w-2xl mx-auto">
-            Poneglyph connects the people who give with the people who need
+            Poneglyph transforms fragmented field data into global intelligence
           </h1>
         </div>
       </section>
@@ -60,15 +60,15 @@ export default function AboutPage() {
             </h2>
             <div className="flex-1 flex flex-col gap-8">
               <p className="text-[20px] font-medium text-black leading-snug">
-                It all started with a frustrating reality: NGOs drowning in spreadsheets while thousands of skilled volunteers had no idea where their help was needed most.
+                It all started with a frustrating reality: NGOs sit on terabytes of critical field data while researchers and journalists struggle to access accurate intelligence.
               </p>
               <p className="text-sub font-medium uppercase tracking-widest text-grey-1 mb-1">The problem we saw</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <p className="text-body text-grey-1 leading-relaxed">
-                  Before founding Poneglyph, our team spent years working directly with NGOs across three continents. The same story repeated everywhere — critical programs understaffed while qualified volunteers sat idle, unmatched.
+                  Before founding Poneglyph, our team spent years working directly with NGOs across three continents. The same story repeated everywhere — valuable data trapped in silos, unable to inform global task forces.
                 </p>
                 <p className="text-body text-grey-1 leading-relaxed">
-                  We founded Poneglyph in 2024 to fix the coordination layer. AI-powered matching, real-time analytics, and a shared data layer that finally lets NGOs and volunteers find each other.
+                  We founded Poneglyph in 2024 to fix the data layer. AI-managed ingestion, real-time analytics, and a shared intelligence commons that finally lets datasets cross borders and inform policy.
                 </p>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function AboutPage() {
         <div className="container-max flex flex-col md:flex-row gap-16 items-start">
           <div className="flex-1 flex flex-col gap-10">
             <blockquote className="text-[clamp(28px,4vw,48px)] font-medium leading-tight tracking-tight text-black">
-              &ldquo;The best resource in any crisis is a human being who knows what to do — we just need to route them correctly.&rdquo;
+              &ldquo;The biggest barrier to solving global crises isn't a lack of data — it's our inability to share and interpret it correctly.&rdquo;
             </blockquote>
             <div className="flex items-center gap-3">
               <div className="relative w-12 h-12 rounded-full overflow-hidden">
@@ -127,27 +127,27 @@ export default function AboutPage() {
       <section className="py-24 bg-grey-4">
         <div className="container-max flex flex-col items-center gap-8 max-w-[500px] mx-auto text-center">
           <h2 className="text-[clamp(22px,3vw,28px)] font-medium leading-snug text-black">
-            Coordination was always the missing layer in humanitarian work.
+            Data silos have always been the missing layer in humanitarian work.
           </h2>
           <div className="text-body text-grey-1 leading-relaxed space-y-4 text-left">
             <p>
-              Every humanitarian organization faces the same invisible tax: time spent searching for the right people, manually tracking commitments, reconciling data across disconnected tools.
+              Every humanitarian organization faces the same invisible tax: time spent manually analyzing reports, translating local data, and struggling to correlate regional trends globally.
             </p>
-            <p>The tools were everywhere. The connection layer was missing.</p>
+            <p>The field data was everywhere. The connected intelligence layer was missing.</p>
             <ul className="space-y-1">
               {[
-                "AI-powered volunteer matching ✓",
-                "Real-time impact analytics ✓",
-                "Multi-NGO coordination layer ✓",
-                "Volunteer skill graph ✓",
-                "Automated reporting ✓",
-                "Compliance-ready audit trail ✓",
+                "Dataset ingestion from any NGO ✓",
+                "AI-extracted trend insights ✓",
+                "Publicly accessible intelligence ✓",
+                "Agentic research terminal ✓",
+                "Autonomous campaign orchestration ✓",
+                "Open API for researchers ✓",
               ].map((item) => (
                 <li key={item} className="text-black font-medium">{item}</li>
               ))}
             </ul>
             <p>
-              Poneglyph brings all of it into one platform — so NGOs can stop coordinating and start doing.
+              Poneglyph brings all of it into one platform — so NGOs can publish data, and task forces can act.
             </p>
             <p className="font-medium text-black">This is what we built. And it works.</p>
           </div>
@@ -218,7 +218,7 @@ export default function AboutPage() {
               Join the team
             </p>
             <h2 className="text-[clamp(36px,5vw,60px)] font-medium leading-tight tracking-tight text-white relative z-10 max-w-xl">
-              Help us reshape how the world coordinates compassion.
+              Help us turn humanitarian data into action.
             </h2>
             <Link
               href="/careers#openpositions"

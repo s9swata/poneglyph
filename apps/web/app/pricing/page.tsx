@@ -5,79 +5,75 @@ import { Footer } from "@/components/footer";
 
 const plans = [
   {
-    name: "Volunteer",
+    name: "Explorer",
     price: "Free",
     period: "",
-    description: "For individuals who want to contribute their skills to meaningful causes.",
-    cta: "Sign up free",
+    description: "For researchers and journalists querying our public dataset.",
+    cta: "Start exploring",
     ctaHref: "/contact",
     highlighted: false,
     features: [
-      "Personalized opportunity matching",
-      "Skill profile & portfolio",
-      "Activity log & impact report",
-      "Connect with up to 5 NGOs",
-      "Community access",
+      "Public dataset access",
+      "AI research terminal (1,000 queries/mo)",
+      "Trend reports & published insights",
+      "Attribution-free download",
+      "Community forum access",
     ],
   },
   {
-    name: "NGO",
+    name: "Contributor",
     price: "$49",
     period: "/mo",
-    description: "For small and mid-size NGOs that need AI-powered volunteer coordination.",
+    description: "For NGOs submitting data and receiving AI insights at scale.",
     cta: "Start free trial",
     ctaHref: "/contact",
     highlighted: true,
     features: [
-      "Up to 500 volunteers",
-      "AI matching engine",
-      "Real-time analytics dashboard",
-      "Custom project workflows",
-      "Data export & reporting",
-      "Priority support",
-      "Integrations (Slack, Notion, Airtable…)",
+      "Dataset submission portal",
+      "AI-cleaned data feedback loop",
+      "Insights published under your NGO's attribution",
+      "Campaign orchestration tools",
+      "Priority support + Data export",
     ],
   },
   {
-    name: "Enterprise",
+    name: "Partner",
     price: "Custom",
     period: "",
-    description: "For large NGOs and networks coordinating thousands of volunteers globally.",
+    description: "For networks needing API access, custom AI runs, and white-label intelligence.",
     cta: "Talk to us",
     ctaHref: "/contact",
     highlighted: false,
     features: [
-      "Unlimited volunteers",
-      "Multi-organization coordination",
-      "Custom AI model fine-tuning",
-      "Dedicated account manager",
-      "Custom SLA & contracts",
-      "SSO & advanced access control",
-      "White-label option",
+      "Full REST API access",
+      "Custom agentic research runs",
+      "Co-published intelligence briefs",
+      "Dedicated data analyst",
+      "White-label option + Custom SLA",
     ],
   },
 ];
 
 const faqs = [
   {
-    q: "Is there a free trial for NGO plans?",
-    a: "Yes — all NGO plans include a 14-day free trial with no credit card required.",
+    q: "Is the data really free to access?",
+    a: "Yes, all published insights are publicly accessible, forever.",
   },
   {
-    q: "Can volunteers use Poneglyph for free?",
-    a: "Always. The volunteer tier is completely free and will stay that way.",
+    q: "What data formats can NGOs submit?",
+    a: "CSV, JSON, PDF reports, and direct API push. We handle cleaning.",
   },
   {
-    q: "How does volunteer matching work?",
-    a: "Our AI analyzes volunteer skills, availability, and location alongside NGO project requirements to surface the best-fit matches in real time.",
+    q: "How do AI insights get published?",
+    a: "Our agents run nightly extraction passes and publish findings with source attribution.",
   },
   {
-    q: "Is our data secure?",
-    a: "Yes. Poneglyph is SOC 2 Type II certified and GDPR compliant. All data is encrypted at rest and in transit.",
+    q: "Is submitted data kept private?",
+    a: "Raw submissions are never made public. Only aggregated, AI-processed insights are surfaced.",
   },
   {
-    q: "Can we export our impact data?",
-    a: "Absolutely. NGO plans include full data export in CSV, JSON, and PDF report formats.",
+    q: "Can I query the data programmatically?",
+    a: "Yes, via our Research API (Contributor tier and above).",
   },
 ];
 
@@ -90,10 +86,10 @@ export default function PricingPage() {
         <div className="container-max flex flex-col items-center gap-6">
           <p className="text-sub font-medium uppercase tracking-widest text-grey-1">pricing</p>
           <h1 className="text-[clamp(40px,6vw,60px)] font-medium leading-tight tracking-tight text-black max-w-xl">
-            Transparent pricing. Always free for volunteers.
+            Open intelligence. Free to access, paid to contribute at scale.
           </h1>
           <p className="text-body text-grey-1 max-w-md">
-            NGOs pay only for what they use. Volunteers never pay. Impact at every scale.
+            Only pay to publish data or run advanced AI agents. Public intelligence is free forever.
           </p>
         </div>
       </section>
@@ -187,7 +183,7 @@ export default function PricingPage() {
             <div className="absolute inset-0 dots-pattern pointer-events-none" aria-hidden />
             <p className="text-sub font-medium uppercase tracking-widest text-grey-2 relative z-10">get started today</p>
             <h2 className="text-[clamp(36px,5vw,60px)] font-medium leading-tight tracking-tight text-white relative z-10 max-w-xl">
-              Match volunteers to missions. Start free.
+              Turn field data into global intelligence. Start free.
             </h2>
             <Link
               href="/contact"

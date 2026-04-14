@@ -6,54 +6,54 @@ import { Footer } from "@/components/footer";
 const solutions = [
   {
     icon: Heart,
-    audience: "Volunteers",
-    title: "Find missions that match your skills and schedule",
-    description: "Create your profile once. Our AI continuously surfaces NGO opportunities that fit your expertise, availability, and location — so your time goes exactly where it matters most.",
-    cta: "Join free",
+    audience: "Field Contributors",
+    title: "Submit observations & field data",
+    description: "Submit observations, incident reports, and field data. Your submissions become intelligence that helps the whole sector.",
+    cta: "Start contributing",
     href: "/pricing",
   },
   {
     icon: Building2,
-    audience: "Small NGOs",
-    title: "Staff your programs without the spreadsheet chaos",
-    description: "Stop manually tracking who's available and for what. Poneglyph's matching engine builds your volunteer roster for you — so you can focus on your mission, not logistics.",
-    cta: "Start trial",
+    audience: "Data-Contributing NGOs",
+    title: "Centralize your reporting",
+    description: "Centralize your reporting. AI cleans, tags, and indexes your submissions — and publishes trends back to you.",
+    cta: "Connect your team",
     href: "/pricing",
   },
   {
     icon: Globe,
-    audience: "Large NGOs",
-    title: "Coordinate thousands of volunteers across regions",
-    description: "Multi-program coordination, cross-organization data sharing, and AI-powered impact analytics — Poneglyph gives large humanitarian networks the infrastructure they need.",
-    cta: "Talk to us",
+    audience: "Research Organizations",
+    title: "Agentic research at scale",
+    description: "Query 156,000+ records, commission agentic research runs, and access AI-generated briefings via our open API.",
+    cta: "Access the terminal",
     href: "/contact",
   },
 ];
 
 const useCases = [
   {
-    title: "Disaster response staffing",
-    description: "Quickly surface and deploy volunteers with the right skills when emergencies strike — in hours, not days.",
+    title: "Real-time incident tracking",
+    description: "Automatically merge qualitative field reports with quantitative incident data from multiple NGOs into one view.",
   },
   {
-    title: "Ongoing program resourcing",
-    description: "Keep recurring programs staffed by automatically re-matching volunteers as availability changes.",
+    title: "Longitudinal trend monitoring",
+    description: "Use historical dataset trends to identify high-risk regions before criminal networks expand operations.",
   },
   {
-    title: "Cross-NGO collaboration",
-    description: "Share volunteer pools with partner organizations to cover joint programs without duplication.",
+    title: "Multi-source data fusion",
+    description: "Let AI agents find hidden links between seemingly isolated incidents submitted by different agencies.",
   },
   {
-    title: "Impact reporting",
-    description: "Automatically aggregate volunteer hours, regional reach, and program outcomes into board-ready reports.",
+    title: "AI-generated insight briefs",
+    description: "Generate verified statistical reports on intervention outcomes for board members and global task forces.",
   },
   {
-    title: "Skill gap analysis",
-    description: "Identify which skills your programs are chronically short of — and proactively recruit for them.",
+    title: "Data gap identification",
+    description: "Discover missing regions or missing incident types automatically using AI, so you know where to deploy resources next.",
   },
   {
-    title: "Volunteer retention",
-    description: "Track engagement patterns and flag volunteers at risk of dropping off before they do.",
+    title: "Campaign outcome measurement",
+    description: "Measure the exact impact of your interventions by tracking intelligence trends before and after your campaigns.",
   },
 ];
 
@@ -67,10 +67,10 @@ export default function SolutionsPage() {
         <div className="container-max flex flex-col items-center gap-6 text-center relative z-10">
           <p className="text-sub font-medium uppercase tracking-widest text-grey-1">solutions</p>
           <h1 className="text-[clamp(40px,6vw,64px)] font-medium leading-tight tracking-tight text-black max-w-2xl">
-            Built for every side of the resource allocation problem
+            Open data intelligence for everyone who fights exploitation.
           </h1>
           <p className="text-body text-grey-1 max-w-md">
-            Whether you are a volunteer looking for purpose or an NGO scaling impact — Poneglyph is built for you.
+            Whether you collect data in the field or analyze it from a desk — Poneglyph is your platform.
           </p>
         </div>
       </section>
@@ -107,7 +107,7 @@ export default function SolutionsPage() {
           <div className="flex flex-col items-center gap-4 text-center">
             <p className="text-sub font-medium uppercase tracking-widest text-grey-1">use cases</p>
             <h2 className="text-[clamp(28px,4vw,40px)] font-medium leading-tight tracking-tight text-black">
-              What NGOs use Poneglyph for
+              What intelligence teams use Poneglyph for
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

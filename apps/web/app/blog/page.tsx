@@ -6,10 +6,10 @@ import { Footer } from "@/components/footer";
 
 const posts = [
   {
-    slug: "announcing-our-seed-round",
-    tag: "Company",
-    title: "Announcing our $2.1M Seed Round: Building the coordination layer for humanitarian work",
-    excerpt: "We are thrilled to announce that Poneglyph has raised $2.1M in seed funding to accelerate AI-powered volunteer matching for NGOs globally.",
+    slug: "poneglyph-is-open",
+    tag: "Launch",
+    title: "Poneglyph is now open: 156,000+ records, free to query",
+    excerpt: "We are thrilled to launch the Poneglyph humanitarian data commons, making thousands of incident reports available to researchers globally via our agentic terminal.",
     date: "Mar 10, 2025",
     readTime: "4 min read",
     size: "large",
@@ -17,10 +17,10 @@ const posts = [
     imagePrompt: "A vibrant, minimalist illustration of interconnected nodes and networks glowing with purpose-driven energy. Features collaborative figures working together across digital bridges, symbolizing global coordination and humanitarian impact. Clean modern aesthetic with warm accent colors representing growth and connection.",
   },
   {
-    slug: "volunteer-matching-guide",
+    slug: "how-ngos-contribute-data",
     tag: "Guide",
-    title: "The complete guide to volunteer matching in 2025",
-    excerpt: "From skill mapping to retention — everything NGOs need to know before building their first volunteer program.",
+    title: "How NGOs can contribute data that actually gets used",
+    excerpt: "From formatting field reports to ensuring compliance — everything NGOs need to know before publishing their first dataset to the commons.",
     date: "Feb 24, 2025",
     readTime: "8 min read",
     size: "small",
@@ -28,10 +28,10 @@ const posts = [
     imagePrompt: "A structured, educational visual showing a flowchart or roadmap with diverse volunteers connecting to opportunities. Clean iconography representing skills, matching, and growth. Organized, guide-like aesthetic with clear visual hierarchy and helpful design patterns.",
   },
   {
-    slug: "ai-in-ngos",
+    slug: "ai-turns-field-reports-to-intelligence",
     tag: "Product",
-    title: "How AI is transforming resource allocation for NGOs",
-    excerpt: "AI-powered matching, impact analytics, and sub-agents are changing what it means to coordinate volunteers at scale.",
+    title: "How AI turns field reports into published intelligence",
+    excerpt: "Automated ingestion, cross-border correlation, and agentic research are changing what it means to analyze unstructured field data at scale.",
     date: "Feb 10, 2025",
     readTime: "5 min read",
     size: "small",
@@ -39,10 +39,10 @@ const posts = [
     imagePrompt: "Futuristic but warm illustration of AI-powered systems orchestrating volunteer coordination. Features neural networks, data flows, and human figures working with intelligent systems. Modern tech aesthetic balanced with humanity and purpose. Emphasizes scale, efficiency, and smart resource allocation.",
   },
   {
-    slug: "impact-measurement-101",
-    tag: "Impact",
-    title: "Impact measurement 101: What every NGO needs to track",
-    excerpt: "Navigate the complexities of measuring real-world impact with our beginner-friendly breakdown.",
+    slug: "trafficking-routes-no-one-was-tracking",
+    tag: "Research",
+    title: "The trafficking routes no one was tracking — until now",
+    excerpt: "Our autonomous agents analyzed 50,000+ scattered reports to uncover entirely new exploitation corridors in South-East Asia.",
     date: "Jan 28, 2025",
     readTime: "6 min read",
     size: "medium",
@@ -50,10 +50,10 @@ const posts = [
     imagePrompt: "An informative visualization showing impact metrics, dashboards, and measurement tools in action. Includes graphs, analytics, and real-world outcomes being tracked. Beginner-friendly visual language with clear data representations. Emphasizes clarity, measurement, and tangible results.",
   },
   {
-    slug: "volunteer-retention",
-    tag: "Community",
-    title: "5 ways to retain volunteers for the long haul",
-    excerpt: "Great volunteer retention does not happen by accident. Here are the practices top NGOs swear by.",
+    slug: "5-years-humanitarian-data-forced-labor",
+    tag: "Analysis",
+    title: "What 5 years of humanitarian data tells us about forced labor",
+    excerpt: "Accurate insights require accurate inputs. We synthesized half a decade of NGO submissions to identify persistent gaps in forced labor reporting.",
     date: "Jan 15, 2025",
     readTime: "4 min read",
     size: "medium",
@@ -107,7 +107,7 @@ export default function BlogPage() {
         <div className="container-max flex flex-col items-center gap-4 text-center">
           <p className="text-sub font-medium uppercase tracking-widest text-grey-1">blog</p>
           <h1 className="text-[clamp(36px,5vw,56px)] font-medium leading-tight tracking-tight text-black">
-            Stories, guides &amp; impact updates
+            Articles, insights &amp; trend reports
           </h1>
         </div>
       </section>

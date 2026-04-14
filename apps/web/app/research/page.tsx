@@ -232,7 +232,7 @@ export default function ResearchPage() {
                     Ask anything about <span style={{ color: "#bfff00" }}>human trafficking data</span>
                   </h2>
                   <p className="text-base text-grey-1 mb-10 max-w-lg">
-                    Query our database of 156,000+ victim records, 189 countries, and CTDC global data on trafficking patterns.
+                    Query our open commons of 156,000+ victim records, 189 countries, and CTDC global data on trafficking patterns.
                   </p>
                   <div className="flex flex-wrap gap-3 justify-center max-w-xl">
                     {["Victims by region", "Exploitation types", "Children trafficked", "Top countries of origin"].map((suggestion) => (

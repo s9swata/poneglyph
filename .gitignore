@@ -7,3 +7,4 @@ node_modules/
 skills-lock.json
 tsconfig.tsbuildinfo
 *.lock
+.turbo/
